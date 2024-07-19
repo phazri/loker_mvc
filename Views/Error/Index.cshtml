@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Error";
+    Layout = "_ErrorLayout";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <img src="https://via.placeholder.com/400x300?text=Error+Image" alt="Error Image" class="error-image mb-4 img-fluid">
+        <h1 class="display-4">Oops! Something went wrong.</h1>
+        <p class="lead">@ViewBag.message</p>
+        <a href="/" class="btn btn-primary mt-3">Go to Homepage</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

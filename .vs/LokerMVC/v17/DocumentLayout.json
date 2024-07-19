@@ -1,0 +1,381 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\quiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\quiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\home\\setcookies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\home\\setcookies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\login\\gantipassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\login\\gantipassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\shared\\_blanklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\shared\\_blanklayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\shared\\partial\\_footerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\shared\\partial\\_footerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\shared\\partial\\_navbarlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\shared\\partial\\_navbarlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\error\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\error\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\shared\\_errorlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\shared\\_errorlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\login\\profileeditor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\login\\profileeditor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\login\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\login\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\quiz\\isiquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\quiz\\isiquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\login\\uploadphoto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\login\\uploadphoto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\login\\inputotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\login\\inputotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\shared\\partial\\_navbarlayout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\shared\\partial\\_navbarlayout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\models\\gantipassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:models\\gantipassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\login\\uploadcv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\login\\uploadcv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\login\\lupapassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\login\\lupapassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|c:\\users\\muhammad phazri s\\downloads\\testloker-main (2)\\testloker-main\\lokermvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{142065FF-28B0-4FDA-9A64-6DAC064A2EB9}|LokerMVC.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T03:54:23.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T03:37:27.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GantiPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\GantiPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\GantiPassword.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\GantiPassword.cshtml",
+              "RelativeToolTip": "Views\\Login\\GantiPassword.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T03:58:45.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SetCookies.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Home\\SetCookies.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SetCookies.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Home\\SetCookies.cshtml",
+              "RelativeToolTip": "Views\\Home\\SetCookies.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T13:02:09.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Quiz\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Quiz\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Quiz\\Index.cshtml",
+              "RelativeToolTip": "Views\\Quiz\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T04:13:45.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_MainLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_MainLayout.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_MainLayout.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T04:04:14.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_BlankLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Shared\\_BlankLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_BlankLayout.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Shared\\_BlankLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_BlankLayout.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T04:20:42.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_FooterLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Shared\\Partial\\_FooterLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Partial\\_FooterLayout.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Shared\\Partial\\_FooterLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Partial\\_FooterLayout.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T04:04:22.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_NavbarLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Shared\\Partial\\_NavbarLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Partial\\_NavbarLayout.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Shared\\Partial\\_NavbarLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Partial\\_NavbarLayout.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T03:41:24.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Error\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Error\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Error\\Index.cshtml",
+              "RelativeToolTip": "Views\\Error\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T03:56:29.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ErrorLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Shared\\_ErrorLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ErrorLayout.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Shared\\_ErrorLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ErrorLayout.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T03:58:08.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProfileEditor.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\ProfileEditor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\ProfileEditor.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\ProfileEditor.cshtml",
+              "RelativeToolTip": "Views\\Login\\ProfileEditor.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T04:37:58.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Login\\Profile.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T03:48:43.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IsiQuiz.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Quiz\\IsiQuiz.cshtml",
+              "RelativeDocumentMoniker": "Views\\Quiz\\IsiQuiz.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Quiz\\IsiQuiz.cshtml",
+              "RelativeToolTip": "Views\\Quiz\\IsiQuiz.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T03:38:04.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UploadPhoto.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\UploadPhoto.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\UploadPhoto.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\UploadPhoto.cshtml",
+              "RelativeToolTip": "Views\\Login\\UploadPhoto.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T03:18:59.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\Register.cshtml",
+              "RelativeToolTip": "Views\\Login\\Register.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T04:38:31.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InputOtp.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\InputOtp.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\InputOtp.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\InputOtp.cshtml",
+              "RelativeToolTip": "Views\\Login\\InputOtp.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T04:38:46.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_NavbarLayout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Shared\\Partial\\_NavbarLayout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\Partial\\_NavbarLayout.cshtml.css",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Shared\\Partial\\_NavbarLayout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\Partial\\_NavbarLayout.cshtml.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-26T04:10:19.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T03:32:55.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GantiPassword.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Models\\GantiPassword.cs",
+              "RelativeDocumentMoniker": "Models\\GantiPassword.cs",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Models\\GantiPassword.cs",
+              "RelativeToolTip": "Models\\GantiPassword.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T03:50:16.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuizController.cs",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "Controllers\\QuizController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T03:20:50.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UploadCv.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\UploadCv.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\UploadCv.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\UploadCv.cshtml",
+              "RelativeToolTip": "Views\\Login\\UploadCv.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T04:21:53.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LupaPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\LupaPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\LupaPassword.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\Login\\LupaPassword.cshtml",
+              "RelativeToolTip": "Views\\Login\\LupaPassword.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T04:01:14.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T06:12:51.117Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

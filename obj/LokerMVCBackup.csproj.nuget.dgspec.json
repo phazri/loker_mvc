@@ -1,0 +1,705 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Project Utama 2023\\Web\\Presentation\\MVC\\LokerMVCBackup\\LokerMVCBackup.csproj": {}
+  },
+  "projects": {
+    "D:\\Project Utama 2023\\Web\\Core\\ApplicationApi\\SdmServiceApi\\SdmServiceApi\\SdmServiceApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project Utama 2023\\Web\\Core\\ApplicationApi\\SdmServiceApi\\SdmServiceApi\\SdmServiceApi.csproj",
+        "projectName": "SdmServiceApi",
+        "projectPath": "D:\\Project Utama 2023\\Web\\Core\\ApplicationApi\\SdmServiceApi\\SdmServiceApi\\SdmServiceApi.csproj",
+        "packagesPath": "C:\\Users\\SuperAdmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Project Utama 2023\\Web\\Core\\ApplicationApi\\SdmServiceApi\\SdmServiceApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Project Utama 2023\\Web\\Apps\\LokerSDM\\NuGet.Config",
+          "C:\\Users\\SuperAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/f5DYIyzMJYjjIBKLAnq4FeKu7swUHnLQGq8YJreNwZ1QuBFk5U/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Project Utama 2023\\Web\\Core\\TempDtoShared\\TempDtoShared\\TempDtoShared.csproj": {
+                "projectPath": "D:\\Project Utama 2023\\Web\\Core\\TempDtoShared\\TempDtoShared\\TempDtoShared.csproj"
+              },
+              "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyAudit\\MyAudit\\MyAudit.csproj": {
+                "projectPath": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyAudit\\MyAudit\\MyAudit.csproj"
+              },
+              "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyShared\\MyShared\\MyShared.csproj": {
+                "projectPath": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyShared\\MyShared\\MyShared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Blazored.SessionStorage": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project Utama 2023\\Web\\Core\\TempDtoShared\\TempDtoShared\\TempDtoShared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project Utama 2023\\Web\\Core\\TempDtoShared\\TempDtoShared\\TempDtoShared.csproj",
+        "projectName": "TempDtoShared",
+        "projectPath": "D:\\Project Utama 2023\\Web\\Core\\TempDtoShared\\TempDtoShared\\TempDtoShared.csproj",
+        "packagesPath": "C:\\Users\\SuperAdmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Project Utama 2023\\Web\\Core\\TempDtoShared\\TempDtoShared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Project Utama 2023\\Web\\Apps\\LokerSDM\\NuGet.Config",
+          "C:\\Users\\SuperAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/f5DYIyzMJYjjIBKLAnq4FeKu7swUHnLQGq8YJreNwZ1QuBFk5U/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyAudit\\MyAudit\\MyAudit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyAudit\\MyAudit\\MyAudit.csproj",
+        "projectName": "MyAudit",
+        "projectPath": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyAudit\\MyAudit\\MyAudit.csproj",
+        "packagesPath": "C:\\Users\\SuperAdmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyAudit\\MyAudit\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Project Utama 2023\\Web\\Apps\\LokerSDM\\NuGet.Config",
+          "C:\\Users\\SuperAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/f5DYIyzMJYjjIBKLAnq4FeKu7swUHnLQGq8YJreNwZ1QuBFk5U/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyEncryption\\MyEncryption\\MyEncryption.csproj": {
+                "projectPath": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyEncryption\\MyEncryption\\MyEncryption.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyEncryption\\MyEncryption\\MyEncryption.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyEncryption\\MyEncryption\\MyEncryption.csproj",
+        "projectName": "MyEncryption",
+        "projectPath": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyEncryption\\MyEncryption\\MyEncryption.csproj",
+        "packagesPath": "C:\\Users\\SuperAdmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyEncryption\\MyEncryption\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Project Utama 2023\\Web\\Apps\\LokerSDM\\NuGet.Config",
+          "C:\\Users\\SuperAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/f5DYIyzMJYjjIBKLAnq4FeKu7swUHnLQGq8YJreNwZ1QuBFk5U/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyShared\\MyShared\\MyShared.csproj": {
+                "projectPath": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyShared\\MyShared\\MyShared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyShared\\MyShared\\MyShared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyShared\\MyShared\\MyShared.csproj",
+        "projectName": "MyShared",
+        "projectPath": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyShared\\MyShared\\MyShared.csproj",
+        "packagesPath": "C:\\Users\\SuperAdmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyShared\\MyShared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Project Utama 2023\\Web\\Apps\\LokerSDM\\NuGet.Config",
+          "C:\\Users\\SuperAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/f5DYIyzMJYjjIBKLAnq4FeKu7swUHnLQGq8YJreNwZ1QuBFk5U/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project Utama 2023\\Web\\Infrastructure\\Identity\\MyIdentityServer\\MyIdentityServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project Utama 2023\\Web\\Infrastructure\\Identity\\MyIdentityServer\\MyIdentityServer.csproj",
+        "projectName": "MyIdentityServer",
+        "projectPath": "D:\\Project Utama 2023\\Web\\Infrastructure\\Identity\\MyIdentityServer\\MyIdentityServer.csproj",
+        "packagesPath": "C:\\Users\\SuperAdmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Project Utama 2023\\Web\\Infrastructure\\Identity\\MyIdentityServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Project Utama 2023\\Web\\Apps\\LokerSDM\\NuGet.Config",
+          "C:\\Users\\SuperAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/f5DYIyzMJYjjIBKLAnq4FeKu7swUHnLQGq8YJreNwZ1QuBFk5U/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Project Utama 2023\\Web\\Core\\TempDtoShared\\TempDtoShared\\TempDtoShared.csproj": {
+                "projectPath": "D:\\Project Utama 2023\\Web\\Core\\TempDtoShared\\TempDtoShared\\TempDtoShared.csproj"
+              },
+              "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyShared\\MyShared\\MyShared.csproj": {
+                "projectPath": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyShared\\MyShared\\MyShared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project Utama 2023\\Web\\Infrastructure\\MyMiddleware\\MyMiddleware.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project Utama 2023\\Web\\Infrastructure\\MyMiddleware\\MyMiddleware.csproj",
+        "projectName": "MyMiddleware",
+        "projectPath": "D:\\Project Utama 2023\\Web\\Infrastructure\\MyMiddleware\\MyMiddleware.csproj",
+        "packagesPath": "C:\\Users\\SuperAdmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Project Utama 2023\\Web\\Infrastructure\\MyMiddleware\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Project Utama 2023\\Web\\Apps\\LokerSDM\\NuGet.Config",
+          "C:\\Users\\SuperAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/f5DYIyzMJYjjIBKLAnq4FeKu7swUHnLQGq8YJreNwZ1QuBFk5U/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Project Utama 2023\\Web\\Core\\TempDtoShared\\TempDtoShared\\TempDtoShared.csproj": {
+                "projectPath": "D:\\Project Utama 2023\\Web\\Core\\TempDtoShared\\TempDtoShared\\TempDtoShared.csproj"
+              },
+              "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyShared\\MyShared\\MyShared.csproj": {
+                "projectPath": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyShared\\MyShared\\MyShared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project Utama 2023\\Web\\Presentation\\MVC\\LokerMVCBackup\\LokerMVCBackup.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project Utama 2023\\Web\\Presentation\\MVC\\LokerMVCBackup\\LokerMVCBackup.csproj",
+        "projectName": "LokerMVCBackup",
+        "projectPath": "D:\\Project Utama 2023\\Web\\Presentation\\MVC\\LokerMVCBackup\\LokerMVCBackup.csproj",
+        "packagesPath": "C:\\Users\\SuperAdmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Project Utama 2023\\Web\\Presentation\\MVC\\LokerMVCBackup\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Project Utama 2023\\Web\\Apps\\LokerSDM\\NuGet.Config",
+          "C:\\Users\\SuperAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/f5DYIyzMJYjjIBKLAnq4FeKu7swUHnLQGq8YJreNwZ1QuBFk5U/api": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Project Utama 2023\\Web\\Core\\ApplicationApi\\SdmServiceApi\\SdmServiceApi\\SdmServiceApi.csproj": {
+                "projectPath": "D:\\Project Utama 2023\\Web\\Core\\ApplicationApi\\SdmServiceApi\\SdmServiceApi\\SdmServiceApi.csproj"
+              },
+              "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyAudit\\MyAudit\\MyAudit.csproj": {
+                "projectPath": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyAudit\\MyAudit\\MyAudit.csproj"
+              },
+              "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyShared\\MyShared\\MyShared.csproj": {
+                "projectPath": "D:\\Project Utama 2023\\Web\\Core\\Utility\\MyShared\\MyShared\\MyShared.csproj"
+              },
+              "D:\\Project Utama 2023\\Web\\Infrastructure\\Identity\\MyIdentityServer\\MyIdentityServer.csproj": {
+                "projectPath": "D:\\Project Utama 2023\\Web\\Infrastructure\\Identity\\MyIdentityServer\\MyIdentityServer.csproj"
+              },
+              "D:\\Project Utama 2023\\Web\\Infrastructure\\MyMiddleware\\MyMiddleware.csproj": {
+                "projectPath": "D:\\Project Utama 2023\\Web\\Infrastructure\\MyMiddleware\\MyMiddleware.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "DevExtreme.AspNet.Core": {
+              "target": "Package",
+              "version": "[23.2.4, )"
+            },
+            "DevExtreme.AspNet.Data": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

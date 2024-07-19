@@ -1,0 +1,60 @@
+﻿@using MyShared.Helper
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    var urlMain = Context.Items["UrlMain"] as string ?? "";
+    var urlApi = Context.Items["UrlApi"] as string ?? "";
+    var userName = Context.User.FindFirst(ClaimTypes.Name)?.Value;
+    var active = Context.User.IsActiveSesion();
+    var userImage = Context.User.FindFirst("userImage")?.Value;
+}
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top shadow-sm">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center position-relative" href="/">
+            <img src="https://esbrasilonline.com/asset/img/logo/logoPutih.webp" alt="Logo" width="90" height="50" class="me-2">
+            <div class="border border-white position-absolute" style="width: 2px; height: 40px; left: 112px; top: 5px;"></div>
+            <span class="text-white fs-4 ms-3">Loker</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            @if (Context.User.IsActiveSesion())
+            {
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-controller="Login" asp-action="Profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-controller="Login" asp-action="GantiPassword">Ganti Password</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-controller="Login" asp-action="Logout">Log Out</a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-link text-white">@userName</span>
+                    </li>
+                    @if (!string.IsNullOrWhiteSpace(userImage))
+                    {
+                        <li class="nav-item">
+                            <img id="userImage" width="40" height="40" class="rounded-circle border border-light ms-3" src="@userImage" alt="UserImage" />
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-controller="Login" asp-action="Index">Sign up / Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="@urlApi/Login/google-sign-in?redirect=@urlMain/Home/setcookies">Sign Up / Login with Google</a>
+                    </li>
+                </ul>
+            }
+        </div>
+    </div>
+</nav>

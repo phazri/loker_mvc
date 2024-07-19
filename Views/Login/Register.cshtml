@@ -1,0 +1,138 @@
+﻿ @using LokerMVC.Models
+@{
+    ViewBag.Title = "Register";
+    Layout = "_MainLayout";
+    var urlMain = Context.Items["UrlMain"] as string ?? "";
+    var urlApi = Context.Items["UrlApi"] as string ?? "";
+    var tglLahirDefault = DateTime.Now.Date.AddYears(-17);
+}
+
+
+@using (Html.BeginForm("Register", "Login", FormMethod.Post, new { id = "RegisterForm" }))
+{
+    using (Html.DevExtreme().ValidationGroup())
+    {
+        @Html.AntiForgeryToken()
+
+        @(Html.DevExtreme().Form<RegisterRequest>()
+                                      .OnInitialized("onInitialized")
+                                      .ShowValidationSummary(true)
+                                      .Items(items =>
+                                      {
+                                          items.AddGroup()
+                                               .Items(groupItems =>
+                                               {
+                                                   groupItems.AddSimpleFor(x => x.Nama)
+                                                             .Label(x => x.Visible(false))
+                                                             .Editor(x => x.TextBox()
+                                                                           .Placeholder("Nama Lengkap")
+                                                                           .LabelMode(EditorLabelMode.Floating)
+                                                                           .ShowClearButton(true));
+                                                   groupItems.AddSimpleFor(x => x.Email)
+                                                             .Label(x => x.Visible(false))
+                                                             .Editor(x => x.TextBox()
+                                                                           .Mode(TextBoxMode.Email)
+                                                                           .LabelMode(EditorLabelMode.Floating)
+                                                                           .Placeholder("Email")
+                                                                           .ValueChangeEvent("keyup")
+                                                                           .ShowClearButton(true));
+                                                   groupItems.AddSimpleFor(x => x.Password)
+                                                             .Label(x => x.Visible(false))
+                                                             .Editor(x => x.TextBox()
+                                                                           .Placeholder("Password")
+                                                                           .Mode(TextBoxMode.Password)
+                                                                           .LabelMode(EditorLabelMode.Floating)
+                                                                           .ShowClearButton(true));
+                                                   groupItems.AddSimpleFor(x => x.ConfirmPassword)
+                                                             .Label(x => x.Visible(false))
+                                                             .Editor(x => x.TextBox()
+                                                                           .Placeholder("Confirm Password")
+                                                                           .LabelMode(EditorLabelMode.Floating)
+                                                                           .Mode(TextBoxMode.Password)
+                                                                           .ShowClearButton(true));
+                                                   groupItems.AddSimpleFor(x => x.NoTlp)
+                                                             .Label(x => x.Visible(false))
+                                                             .Editor(x => x.TextBox()
+                                                                           .LabelMode(EditorLabelMode.Floating)
+                                                                           .Placeholder("Nomor Handpone")
+                                                                           .Mask("0000-0000-00###")
+                                                                           .ShowClearButton(true));
+                                                   groupItems.AddSimpleFor(x => x.TempatLahir)
+                                                             .Label(x => x.Visible(false))
+                                                             .Editor(x => x.TextBox()
+                                                                           .Placeholder("Tempat Lahir")
+                                                                           .ShowClearButton(true));
+                                                   groupItems.AddSimpleFor(x => x.TglLahir)
+                                                             .Label(x => x.Visible(false))
+                                                             .Editor(x => x.DateBox()
+                                                                           .LabelMode(EditorLabelMode.Floating)
+                                                                           .Placeholder("Tgl Lahir")
+                                                                           .DisplayFormat("dd-MMM-yyyy")
+                                                                           .Value(tglLahirDefault)
+                                                                           .ShowClearButton(true));
+                                                   groupItems.AddSimpleFor(x => x.Alamat)
+                                                             .Label(x => x.Visible(false))
+                                                             .Editor(x => x.TextArea()
+                                                                           .LabelMode(EditorLabelMode.Floating)
+                                                                           .Placeholder("Alamat")
+                                                                           .AutoResizeEnabled(true));
+                                                   groupItems.AddSimpleFor(x => x.Note)
+                                                             .Label(x => x.Visible(false))
+                                                             .Editor(x => x.TextArea()
+                                                                           .Placeholder("Ceritakan Tentang Diri Anda / potensi / cita2 dll")
+                                                                           .LabelMode(EditorLabelMode.Floating)
+                                                                           .AutoResizeEnabled(true));
+                                               });
+
+                                          items.AddGroup()
+                                               .ColCountByScreen(c => c.Md(2).Sm(2).Lg(2))
+                                               .CssClass("buttons-group")
+                                               .Items(groupItems =>
+                                               {
+                                                   groupItems.AddButton()
+                                                             .ButtonOptions(b => b.Text("Back")
+                                                                                  .Icon(Url.Content("back"))
+                                                                                  .Type(ButtonType.Danger)
+                                                                                  .Width(120)
+                                                                                  .OnClick("onBackButtonClick"));
+
+                                                   groupItems.AddButton()
+                                                             .ButtonOptions(b => b.Text("Register")
+                                                                                  .Type(ButtonType.Default)
+                                                                                  .Width(120)
+                                                                                  .UseSubmitBehavior(true));
+                                               });
+
+                                          items.AddGroup()
+                                               .ColCountByScreen(c => c.Md(2).Sm(2).Lg(2))
+                                               .CssClass("buttons-group")
+                                               .Items(groupItems =>
+                                               {
+                                                   groupItems.AddButton()
+                                                             .ButtonOptions(b => b.Text("Register With Google")
+                                                                                  .Type(ButtonType.Success)
+                                                                                  .Width(120)
+                                                                                  .OnClick("onRegisterGoogleButtonClick"));
+                                               });
+
+                                      }).FormData(Model))
+    }
+}
+
+
+
+<script>
+    
+    function onInitialized(e) {
+        formInstance = e.component;
+    }
+
+    function onBackButtonClick() {
+        window.location.href = '@Url.Action("Index", "login")';
+    }
+    
+    function onRegisterGoogleButtonClick() {
+        var googleSignInUrl = '@urlApi/Login/google-sign-in?redirect=@urlMain/Home/setcookies';
+            window.location.href = googleSignInUrl;
+    }
+</script>

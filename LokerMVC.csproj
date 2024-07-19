@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="DevExtreme.AspNet.Data" Version="3.0.0" />
+    <PackageReference Include="DevExtreme.AspNet.Core" Version="23.2.6" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.2.0" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties TemplateFeatures="NETCORE" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Login\GantiPassword.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Login\LupaPassword.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Login\Profile.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Quiz\IsiQuiz.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Login\LupaPassword.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Login\Profile.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Views\Shared\Partial\_FooterLayout.cshtml" />
+    <None Include="Views\Shared\Partial\_NavbarLayout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Quiz\IsiQuiz.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Login\GantiPassword.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MyAudit">
+      <HintPath>bin\MyAudit.dll</HintPath>
+    </Reference>
+    <Reference Include="MyIdentityServer">
+      <HintPath>bin\MyIdentityServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MyMiddleware">
+      <HintPath>bin\MyMiddleware.dll</HintPath>
+    </Reference>
+    <Reference Include="MyShared">
+      <HintPath>bin\MyShared.dll</HintPath>
+    </Reference>
+    <Reference Include="SdmServiceApi">
+      <HintPath>bin\SdmServiceApi.dll</HintPath>
+    </Reference>
+    <Reference Include="TempDtoShared">
+      <HintPath>bin\TempDtoShared.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

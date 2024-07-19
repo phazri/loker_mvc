@@ -1,0 +1,25 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "Sukses Login Google";
+    Layout = "_BlankLayout";
+}
+
+
+
+
+<h3>Berhasil Login Google silkahan lajut</h3>
+
+@(Html.DevExtreme().Button()
+      .Text("Lanjut")
+      .Type(ButtonType.Success)
+      .StylingMode(ButtonStylingMode.Contained)
+      .Width(120)
+      .OnClick("redirect")
+)
+
+<script>
+    function redirect() {
+        window.location.href = '@Url.Action("Index", "Home", new { isLoginFromGoogle = true })';
+    }
+</script>

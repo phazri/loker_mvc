@@ -1,0 +1,77 @@
+﻿@using MyShared.Helper
+@{
+    ViewBag.Title = "Upload Cv";
+    Layout = "_BlankLayout";
+}
+
+
+
+
+@(Html.DevExtreme().FileUploader()
+      .ID("file-uploader")
+      .Name("file")
+      .Accept("application/pdf")
+      .ChunkSize(200000)
+      .AllowedFileExtensions(MyFileName.FilePdf)
+      .MaxFileSize(10000000)
+      .OnUploadStarted("onUploadStarted")
+      .OnUploadError("onUploadError")
+      .OnUploaded("onUploaded")
+      .UploadUrl(Url.Action("UploadCv", "Login"))
+)
+
+<span class="note">Allowed file extensions: <span>
+    @{
+        foreach (var item in MyFileName.FilePdf)
+        {
+                @item
+        }
+    } 
+</span>.</span>
+<span class="note">Maximum file size: <span>10 MB.</span></span>
+
+<div class="chunk-panel">
+</div>
+
+<script>
+
+    function onUploaded() {
+        window.location.href = '@Url.Action("Profile", "Login")';
+    }
+
+    function onUploadProgress(e) {
+        getChunkPanel().appendChild(addChunkInfo(e.segmentSize, e.bytesLoaded, e.bytesTotal));
+    }
+    function onUploadStarted(e) {
+        getChunkPanel().innerHTML = '';
+    }
+    function onUploadError() {
+        DevExpress.ui.dialog.alert("File is too large or not allowed file extension", "Error");
+    }
+
+    function addChunkInfo(segmentSize, loaded, total) {
+        var result = document.createElement("DIV");
+
+        result.appendChild(createSpan("Chunk size:"));
+        result.appendChild(createSpan(getValueInKb(segmentSize), 'segment-size'));
+        result.appendChild(createSpan(", Uploaded:"));
+        result.appendChild(createSpan(getValueInKb(loaded), 'loaded-size'));
+        result.appendChild(createSpan("/"));
+        result.appendChild(createSpan(getValueInKb(total), 'total-size'));
+
+        return result;
+    }
+    function getValueInKb(value) {
+        return (value / 1024).toFixed(0) + "kb";
+    }
+    function createSpan(text, className) {
+        var result = document.createElement("SPAN");
+        if (className)
+            result.className = className + " dx-theme-accent-as-text-color";
+        result.innerText = text;
+        return result;
+    }
+    function getChunkPanel() {
+        return document.querySelector('.chunk-panel');
+    }
+</script>

@@ -1,0 +1,62 @@
+﻿@using LokerMVC.Models
+@model LokerMVC.Models.OtpModel
+@{
+    ViewBag.Title = "Input Otp";
+    Layout = "_MainLayout";
+}
+
+
+<h2>Input OTP</h2>
+
+
+
+@using (Html.BeginForm("InputOtp", "Login", FormMethod.Post, new { id = "otpForm" }))
+{
+    using (Html.DevExtreme().ValidationGroup())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(x => x.IsResetPassword)
+        @(Html.DevExtreme().Form<OtpModel>()
+                                          .OnInitialized("onInitialized")
+                                          .ShowValidationSummary(true)
+                                          .Items(items =>
+                                          {
+                                              items.AddGroup()
+                                                   .Items(groupItems =>
+                                                   {
+                                                       groupItems.AddSimpleFor(x => x)
+                                                                 .Label(x => x.Visible(false))
+                                                                 .Editor(x => x.TextBox()
+                                                                               .Placeholder("otp from sms")
+                                                                               .ShowClearButton(true).Name("otp"));
+
+                                                   });
+
+                                              items.AddGroup()
+                                                   .ColCountByScreen(c => c.Md(2).Sm(2).Lg(2))
+                                                   .CssClass("buttons-group")
+                                                   .Items(groupItems =>
+                                                   {
+
+                                                       groupItems.AddButton()
+                                                                 .ButtonOptions(b => b.Text("Lanjut")
+                                                                                      .Type(ButtonType.Success)
+                                                                                      .StylingMode(ButtonStylingMode.Contained)
+                                                                                      .Width(120)
+                                                                                      .UseSubmitBehavior(true));
+                                                   });
+
+                                          }).FormData(Model))
+    }
+}
+
+
+<script>
+
+    let formInstance;
+
+    function onInitialized(e) {
+        formInstance = e.component;
+    }
+
+</script>

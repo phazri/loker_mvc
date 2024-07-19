@@ -1,0 +1,1189 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LokerMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LokerMVC.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\Site.css",
+      "PackagePath": "staticwebassets\\css\\Site.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx-diagram.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-diagram.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx-diagram.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-diagram.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx-diagram.min.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-diagram.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx-diagram.min.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-diagram.min.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx-gantt.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-gantt.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx-gantt.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-gantt.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx-gantt.min.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-gantt.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx-gantt.min.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-gantt.min.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.carmine.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.carmine.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.carmine.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.carmine.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.carmine.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.carmine.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.carmine.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.carmine.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.contrast.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.contrast.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.contrast.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.contrast.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.contrast.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.contrast.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.contrast.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.contrast.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.dark.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.dark.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.dark.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.dark.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.dark.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.dark.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.darkmoon.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkmoon.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.darkmoon.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkmoon.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.darkmoon.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkmoon.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.darkmoon.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkmoon.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.darkviolet.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkviolet.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.darkviolet.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkviolet.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.darkviolet.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkviolet.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.darkviolet.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkviolet.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.fluent.blue.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.fluent.blue.dark.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.fluent.blue.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.fluent.blue.dark.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.fluent.blue.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.fluent.blue.light.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.fluent.blue.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.fluent.blue.light.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.fluent.saas.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.fluent.saas.dark.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.fluent.saas.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.fluent.saas.dark.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.fluent.saas.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.fluent.saas.light.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.fluent.saas.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.fluent.saas.light.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.greenmist.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.greenmist.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.greenmist.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.greenmist.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.greenmist.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.greenmist.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.greenmist.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.greenmist.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.light.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.light.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.light.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.light.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.light.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.light.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.blue.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.dark.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.blue.dark.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.dark.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.blue.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.dark.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.blue.dark.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.dark.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.blue.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.light.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.blue.light.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.light.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.blue.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.light.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.blue.light.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.light.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.lime.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.dark.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.lime.dark.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.dark.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.lime.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.dark.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.lime.dark.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.dark.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.lime.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.light.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.lime.light.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.light.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.lime.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.light.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.lime.light.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.light.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.orange.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.dark.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.orange.dark.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.dark.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.orange.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.dark.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.orange.dark.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.dark.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.orange.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.light.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.orange.light.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.light.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.orange.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.light.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.orange.light.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.light.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.purple.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.dark.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.purple.dark.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.dark.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.purple.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.dark.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.purple.dark.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.dark.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.purple.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.light.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.purple.light.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.light.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.purple.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.light.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.purple.light.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.light.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.teal.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.dark.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.teal.dark.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.dark.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.teal.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.dark.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.teal.dark.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.dark.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.teal.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.light.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.teal.light.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.light.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.teal.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.light.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.material.teal.light.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.light.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.softblue.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.softblue.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.softblue.compact.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.softblue.compact.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.softblue.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.softblue.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\dx.softblue.css.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.softblue.css.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.ttf.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-300.ttf.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.woff.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-300.woff.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.woff2.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-300.woff2.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.ttf.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-400.ttf.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.woff.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-400.woff.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.woff2.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-400.woff2.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-500.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.ttf.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-500.ttf.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-500.woff"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.woff.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-500.woff.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-500.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.woff2.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-500.woff2.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-700.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.ttf.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-700.ttf.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-700.woff"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.woff.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-700.woff.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-700.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.woff2.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-700.woff2.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\icons\\dxicons.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\icons\\dxicons.ttf.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxicons.ttf.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\icons\\dxicons.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\icons\\dxicons.woff.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxicons.woff.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\icons\\dxicons.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\icons\\dxicons.woff2.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxicons.woff2.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\icons\\dxiconsfluent.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsfluent.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\icons\\dxiconsfluent.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsfluent.woff"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\icons\\dxiconsfluent.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsfluent.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsmaterial.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.ttf.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsmaterial.ttf.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsmaterial.woff"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsmaterial.woff.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsmaterial.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff2.bak",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsmaterial.woff2.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\images\\logo.png.png",
+      "PackagePath": "staticwebassets\\images\\logo.png.png"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\FileSaver.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\FileSaver.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\FileSaver.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\FileSaver.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\FileSaver.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\FileSaver.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\FileSaver.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\FileSaver.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\aspnet\\dx.aspnet.data.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\aspnet\\dx.aspnet.data.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\aspnet\\dx.aspnet.data.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\aspnet\\dx.aspnet.data.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\aspnet\\dx.aspnet.mvc.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\aspnet\\dx.aspnet.mvc.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\aspnet\\dx.aspnet.mvc.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\aspnet\\dx.aspnet.mvc.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr\\event.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\event.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr\\event.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\event.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr\\event.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\event.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr\\event.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\event.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr\\supplemental.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\supplemental.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr\\supplemental.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\supplemental.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr\\supplemental.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\supplemental.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr\\supplemental.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\supplemental.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr\\unresolved.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\unresolved.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr\\unresolved.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\unresolved.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr\\unresolved.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\unresolved.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\cldr\\unresolved.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\unresolved.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx-diagram.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-diagram.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx-diagram.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-diagram.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx-diagram.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-diagram.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx-diagram.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-diagram.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx-gantt.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-gantt.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx-gantt.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-gantt.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx-gantt.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-gantt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx-gantt.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-gantt.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx-quill.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-quill.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx-quill.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-quill.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx-quill.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-quill.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx-quill.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-quill.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx.all.debug.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.all.debug.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx.all.debug.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.all.debug.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx.all.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.all.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx.all.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.all.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx.viz.debug.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.viz.debug.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx.viz.debug.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.viz.debug.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx.viz.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.viz.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx.viz.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.viz.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx.web.debug.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.web.debug.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx.web.debug.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.web.debug.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx.web.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.web.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\dx.web.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.web.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\exceljs.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\exceljs.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\exceljs.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\exceljs.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\exceljs.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\exceljs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\exceljs.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\exceljs.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\currency.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\currency.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\currency.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\currency.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\currency.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\currency.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\currency.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\currency.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\date.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\date.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\date.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\date.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\date.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\date.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\date.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\date.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\message.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\message.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\message.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\message.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\message.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\message.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\message.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\message.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\number.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\number.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\number.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\number.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\number.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\number.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\globalize\\number.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\number.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\jspdf.plugin.autotable.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jspdf.plugin.autotable.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\jspdf.plugin.autotable.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jspdf.plugin.autotable.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\jspdf.plugin.autotable.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jspdf.plugin.autotable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\jspdf.plugin.autotable.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jspdf.plugin.autotable.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\jspdf.umd.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jspdf.umd.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\jspdf.umd.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jspdf.umd.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\jspdf.umd.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jspdf.umd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\jspdf.umd.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jspdf.umd.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\jszip.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jszip.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\jszip.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jszip.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\jszip.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jszip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\jszip.min.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jszip.min.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.ar.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.ar.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.ar.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.ar.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.ca.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.ca.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.ca.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.ca.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.cs.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.cs.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.cs.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.cs.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.de.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.de.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.de.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.de.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.el.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.el.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.el.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.el.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.en.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.en.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.en.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.en.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.es.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.es.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.es.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.es.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.fa.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.fa.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.fa.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.fa.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.fi.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.fi.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.fi.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.fi.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.fr.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.fr.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.fr.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.fr.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.hu.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.hu.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.hu.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.hu.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.it.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.it.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.it.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.it.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.ja.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.ja.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.ja.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.ja.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.lt.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.lt.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.lt.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.lt.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.lv.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.lv.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.lv.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.lv.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.nb.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.nb.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.nb.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.nb.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.nl.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.nl.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.nl.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.nl.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.pl.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.pl.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.pl.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.pl.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.pt.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.pt.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.pt.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.pt.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.ro.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.ro.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.ro.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.ro.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.ru.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.ru.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.ru.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.ru.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.sl.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.sl.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.sl.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.sl.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.sv.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.sv.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.sv.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.sv.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.tr.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.tr.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.tr.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.tr.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.vi.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.vi.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.vi.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.vi.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.zh-tw.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.zh-tw.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.zh-tw.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.zh-tw.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.zh.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.zh.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\localization\\dx.messages.zh.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.zh.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-data\\africa.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\africa.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-data\\africa.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\africa.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-data\\canada.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\canada.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-data\\canada.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\canada.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-data\\eurasia.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\eurasia.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-data\\eurasia.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\eurasia.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-data\\europe.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\europe.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-data\\europe.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\europe.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-data\\usa.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\usa.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-data\\usa.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\usa.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-data\\world.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\world.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-data\\world.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\world.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.debug.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.debug.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.debug.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.debug.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.js.bak"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.node.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.node.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad Phazri S\\Downloads\\TestLoker-main (2)\\TestLoker-main\\LokerMVC\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.node.js.bak",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.node.js.bak"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LokerMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LokerMVC.props",
+      "PackagePath": "build\\LokerMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LokerMVC.props",
+      "PackagePath": "buildMultiTargeting\\LokerMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LokerMVC.props",
+      "PackagePath": "buildTransitive\\LokerMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

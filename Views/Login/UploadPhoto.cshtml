@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Upload Photo";
+    Layout = "_BlankLayout";
+}
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h5 class="card-title mb-0">Upload Photo</h5>
+                </div>
+                <div class="card-body">
+                    <form id="form" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="fileuploader">Select photo</label>
+                            <div id="fileuploader-container">
+                                @(Html.DevExtreme().FileUploader()
+                                    .Name("Photo")
+                                    .SelectButtonText("Select photo")
+                                    .LabelText("")
+                                    .Accept("image/*")
+                                    .UploadMode(FileUploadMode.UseForm)
+                                    )
+                            </div>
+                        </div>
+                        <div class="form-group text-center">
+                            @(Html.DevExtreme().Button()
+                                .ID("button")
+                                .Text("Upload")
+                                .Type(ButtonType.Success)
+                                .UseSubmitBehavior(true)
+                                )
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn3.devexpress.com/jslib/20.2.4/js/dx.all.js"></script>

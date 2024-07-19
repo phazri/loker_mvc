@@ -1,0 +1,154 @@
+@model LokerMVC.Models.InfoLokerView
+
+@{
+    ViewBag.Title = "Loker Es Brasil";
+    Layout = "_MainLayout";
+}
+
+<div class="container mt-5">
+    @foreach (var loker in Model.LokerOpen)
+    {
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">@loker.Judul</h5>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img width="50" height="50" class="img-thumbnail" src="@loker.Ilustrasi" alt="Image Loker">
+                            </div>
+                        </div>
+                        <p class="card-text mt-3">@loker.Keterangan</p>
+                        <p class="card-text"><strong>Status:</strong> @loker.StatusLowongan</p>
+                        <a class="btn btn-primary mt-3" asp-controller="Quiz" asp-action="Index" asp-route-lokerId="@loker.IdLoker">Daftar</a>
+                    </div>
+                </div>
+            }
+        </div>
+
+
+
+
+    
+
+
+    <script>
+    $(document).ready(function () {
+        getLocation();
+    });
+
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(saveLocationToController, handleLocationError);
+        } else {
+            console.log("Geolocation is not supported by this browser.");
+        }
+    }
+
+    function handleLocationError(error) {
+        let remarks = "";
+        switch (error.code) {
+            case error.PERMISSION_DENIED:
+                remarks = "User denied the request for Geolocation.";
+                break;
+            case error.POSITION_UNAVAILABLE:
+                remarks = "Location information is unavailable.";
+                break;
+            case error.TIMEOUT:
+                remarks = "The request to get user location timed out.";
+                break;
+            case error.UNKNOWN_ERROR:
+                remarks = "An unknown error occurred.";
+                break;
+        }
+
+        // Send Error to Controller
+        $.ajax({
+            url: '/Home/SetLocation',
+            type: 'POST',
+            data: {
+                latitude: '',
+                longitude: '',
+                remarks: remarks
+            },
+            success: function (data) {
+                console.log("Location data sent successfully.");
+            },
+            error: function () {
+                console.log('Failed to send location data.');
+            }
+        });
+
+        console.log('Error occurred:', remarks);
+    }
+
+    function saveLocationToController(position) {
+        let latitude = position.coords.latitude;
+        let longitude = position.coords.longitude;
+
+        // Send data to controller with AJAX
+        $.ajax({
+            url: '/Home/SetLocation',
+            type: 'POST',
+            data: {
+                latitude: latitude,
+                longitude: longitude,
+                remarks: 'Ok'
+            },
+            success: function (data) {
+                console.log("Location data sent successfully.");
+            },
+            error: function () {
+                console.log('Failed to send location data.');
+                console.log(latitude);
+                console.log(longitude);
+            }
+        });
+    }
+
+    function refreshMotivasiImage() {
+        $.ajax({
+            url: '@Url.Action("RefreshMotivasiImage", "Home")',
+            type: 'GET',
+            success: function (data) {
+                $('#motivasiImage').attr('src', data);
+            },
+            error: function () {
+                showAlert('Failed to refresh motivation image.');
+            }
+        });
+    }
+
+    $(document).ready(function () {
+        $('#motivasiText').on('click', function () {
+            refreshMotivasiText();
+        });
+    });
+
+    function refreshMotivasiText() {
+        $.ajax({
+            url: '@Url.Action("RefreshMotivasiText", "Home")',
+            type: 'GET',
+            success: function (data) {
+                $('#motivasiText').text(data);
+            },
+            error: function () {
+                showAlert('Failed to refresh motivation text.');
+            }
+        });
+    }
+
+    function showAlert(message) {
+        // Menggunakan komponen alert dari Bootstrap untuk menampilkan pesan kesalahan
+        var alertHtml = `
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    ${message}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            `;
+        $('#alertContainer').html(alertHtml);
+    }
+
+    function redirectToLogin() {
+        window.location.href = '@Url.Action("Index", "Login")';
+    }
+</script>

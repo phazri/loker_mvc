@@ -1,0 +1,89 @@
+﻿@model LokerMVC.Models.InfoLokerSingleView
+
+@{
+    ViewBag.Title = "Open Loker";
+    Layout = "_MainLayout";
+}
+
+<div class="container mt-5">
+    <div class="card mb-3">
+        <div class="card-header">
+            <h2 class="h4">@Model.LokerOpen.Judul</h2>
+        </div>
+        <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+                <img width="50" height="50" class="img-thumbnail me-2" src="@Model.LokerOpen.Ilustrasi" alt="Image Loker">
+                <div>
+                    <p class="mb-0">@Model.LokerOpen.Keterangan</p>
+                    <p class="mb-0"><strong>Status:</strong> @Model.LokerOpen.StatusLowongan</p>
+                </div>
+            </div>
+
+            <!-- Dropdown Kriteria -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-danger">Kriteria</button>
+                <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                    @foreach (var kriteria in Model.LokerOpen.Kriteria)
+                    {
+                        <li><a class="dropdown-item" href="#">@kriteria</a></li>
+                    }
+                </ul>
+            </div>
+
+            <a class="btn btn-primary mt-3" asp-controller="Quiz" asp-action="IsiQuiz" asp-route-lokerId="@Model.LokerOpen.IdLoker">Isi Quiz</a>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <img id="motivasiImage" class="img-fluid" width="300" height="300" src="@Model.GambarMotivasi" alt="Image Motivasi" onclick="refreshMotivasiImage()">
+        <h2 id="motivasiText" class="mt-3 h4">@Model.KalimatMotivasi</h2>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#motivasiText').on('click', function () {
+            refreshMotivasiText();
+        });
+
+        function refreshMotivasiImage() {
+            $.ajax({
+                url: '@Url.Action("RefreshMotivasiImage", "Home")',
+                type: 'GET',
+                success: function (data) {
+                    $('#motivasiImage').attr('src', data);
+                },
+                error: function () {
+                    showAlert('Gagal memperbarui gambar motivasi.');
+                }
+            });
+        }
+
+        function refreshMotivasiText() {
+            $.ajax({
+                url: '@Url.Action("RefreshMotivasiText", "Home")',
+                type: 'GET',
+                success: function (data) {
+                    $('#motivasiText').text(data);
+                },
+                error: function () {
+                    showAlert('Gagal memperbarui teks motivasi.');
+                }
+            });
+        }
+
+        function showAlert(message) {
+            // Menggunakan komponen alert dari Bootstrap untuk menampilkan pesan kesalahan
+            var alertHtml = `
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            ${message}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    `;
+            $('#alertContainer').html(alertHtml);
+        }
+    });
+</script>

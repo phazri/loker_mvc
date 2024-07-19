@@ -1,0 +1,186 @@
+﻿@using TempDtoShared.Utility
+@using MyShared.Helper
+@using LokerMVC.Models
+@model LokerMVC.Models.RespondQuizView
+
+@{
+    ViewBag.Title = "Quiz";
+    Layout = "_MainLayout";
+}
+
+<h2 class="text-center my-4">Isi Quiz</h2>
+
+@using (Html.BeginForm("KirimJawaban", "Quiz", FormMethod.Post, new { id = "QuizForm", @class = "needs-validation", novalidate = "novalidate" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(x => x.HeaderId)
+
+    <div class="container">
+        @for (int i = 0; i < Model.DataQuiz.Count; i++)
+        {
+            var quiz = Model.DataQuiz[i];
+
+            @Html.HiddenFor(x => x.DataQuiz[i].DetailJawabanId)
+            @Html.HiddenFor(x => x.DataQuiz[i].Pertanyaan)
+            @Html.HiddenFor(x => x.DataQuiz[i].BentukIsian)
+
+            <div class="mb-3">
+                <label class="form-label">@quiz.No. @quiz.Pertanyaan</label>
+
+                @switch (quiz.BentukIsian.AliasToBentukIsianEnum())
+                {
+                    case MyEnum.BentukIsianEnum.YesNo:
+                        @(Html.DevExtreme().RadioGroup()
+                            .Items(new[] { "Yes", "No" })
+                            .Value(quiz.Jawaban)
+                            .Layout(Orientation.Horizontal)
+                            .Name($"DataQuiz[{i}].Jawaban")
+                            .ElementAttr(new { @class = "form-check form-check-inline" }))
+                        break;
+                    case MyEnum.BentukIsianEnum.SimpleText:
+                        if (quiz.IsRequired)
+                        {
+                            @(Html.DevExtreme().TextBox()
+                                .ShowClearButton(true)
+                                .Value(quiz.Jawaban)
+                                .InputAttr(new { required = "required", @class = "form-control" })
+                                .Name($"DataQuiz[{i}].Jawaban"))
+                        }
+                        else
+                        {
+                            @(Html.DevExtreme().TextBox()
+                                .ShowClearButton(true)
+                                .Value(quiz.Jawaban)
+                                .InputAttr(new { @class = "form-control" })
+                                .Name($"DataQuiz[{i}].Jawaban"))
+                        }
+                        break;
+                    case MyEnum.BentukIsianEnum.Paragraf:
+                        if (quiz.IsRequired)
+                        {
+                            @(Html.DevExtreme().TextArea()
+                                .InputAttr(new { required = "required", @class = "form-control" })
+                                .AutoResizeEnabled(true)
+                                .Value(quiz.Jawaban)
+                                .Name($"DataQuiz[{i}].Jawaban"))
+                        }
+                        else
+                        {
+                            @(Html.DevExtreme().TextArea()
+                                .AutoResizeEnabled(true)
+                                .InputAttr(new { @class = "form-control" })
+                                .Value(quiz.Jawaban)
+                                .Name($"DataQuiz[{i}].Jawaban"))
+                        }
+                        break;
+                    case MyEnum.BentukIsianEnum.Combobox:
+                        {
+                            var dataCombo = quiz.PilihanJawaban.Select(x => x.Keterangan).ToList();
+
+                            @(Html.DevExtreme().SelectBox()
+                                .DataSource(dataCombo)
+                                .Placeholder("Pilih Salah Satu")
+                                .ShowClearButton(true)
+                                .Value(quiz.Jawaban)
+                                .InputAttr(new { @class = "form-select" })
+                                .Name($"DataQuiz[{i}].Jawaban"))
+                        }
+                        break;
+                    case MyEnum.BentukIsianEnum.Checkbox:
+                    case MyEnum.BentukIsianEnum.Listbox:
+                        {
+                            var dataList = quiz.PilihanJawaban.Select(x => new PilihanJawaban { Keterangan = x.Keterangan }).ToList();
+
+                            var listValue = new string[] { };
+                            if (quiz.Jawaban != null)
+                            {
+                                listValue = quiz.Jawaban.Split(',').ToArray();
+                                listValue = listValue.Select(s => s.Trim()).ToArray();
+                            }
+
+                            @(Html.DevExtreme().List()
+                                .ID($"MyList[{i}]")
+                                .ShowSelectionControls(true)
+                                .SelectionMode(ListSelectionMode.All)
+                                .SelectByClick(true)
+                                .ItemTemplate(@<text><%- Keterangan %></text>)
+                                .DataSource(dataList, "Keterangan")
+                                .OnSelectionChanged($"function(data) {{ setItemToHiddenTag(data, {i}); }}")
+                                .SelectedItemKeys(listValue)
+                                .ElementAttr(new { @class = "form-control" }))
+
+                            @Html.HiddenFor(x => x.DataQuiz[i].Jawaban, new { Id = $"valList{i}" })
+                        }
+                        break;
+                    case MyEnum.BentukIsianEnum.TagBox:
+                        {
+                            var dataTag = quiz.PilihanJawaban.Select(x => x.Keterangan).ToList();
+
+                            var tagValue = new string[] { };
+                            if (quiz.Jawaban != null)
+                                tagValue = quiz.Jawaban.Split(',');
+
+                            @(Html.DevExtreme().TagBox()
+                                .Items(dataTag)
+                                .HideSelectedItems(true)
+                                .Value(tagValue)
+                                .ElementAttr(new { @class = "form-control" })
+                                .Name($"DataQuiz[{i}].JawabanCollection"))
+                        }
+                        break;
+                    case MyEnum.BentukIsianEnum.UploadFile:
+                        // Logic for UploadFile can be added here if necessary
+                        break;
+                    case MyEnum.BentukIsianEnum.Tanggal:
+                        @(Html.DevExtreme().DateBox()
+                            .DisplayFormat("EEE, dd-MMM-yyyy")
+                            .Value(quiz.Jawaban)
+                            .Type(DateBoxType.Date)
+                            .InputAttr(new { @class = "form-control" })
+                            .Name($"DataQuiz[{i}].Jawaban"))
+                        break;
+                    case MyEnum.BentukIsianEnum.Nominal:
+                        if (quiz.IsRequired)
+                        {
+                            @(Html.DevExtreme().NumberBox()
+                                .ShowClearButton(true)
+                                .Value(quiz.Jawaban.ToDouble())
+                                .InputAttr(new { required = "required", @class = "form-control" })
+                                .Format(f => { f.Type(Format.FixedPoint); })
+                                .Name($"DataQuiz[{i}].Jawaban"))
+                        }
+                        else
+                        {
+                            @(Html.DevExtreme().NumberBox()
+                                .ShowClearButton(true)
+                                .Value(quiz.Jawaban.ToDouble())
+                                .InputAttr(new { @class = "form-control" })
+                                .Format(f => { f.Type(Format.FixedPoint); })
+                                .Name($"DataQuiz[{i}].Jawaban"))
+                        }
+                        break;
+                    case MyEnum.BentukIsianEnum.PrivateOnSite:
+                    default:
+                        continue;
+                }
+            </div>
+        }
+
+        <div class="d-flex justify-content-between mt-4">
+            <button type="button" class="btn btn-secondary" onclick="onBackButtonClick()">Cancel</button>
+            <button type="submit" class="btn btn-primary">Save</button>
+        </div>
+    </div>
+}
+
+<script>
+    function setItemToHiddenTag(data, index) {
+        var selectedItems = data.component.option("selectedItemKeys").join(", ");
+        console.log("Selected items: " + selectedItems);
+        $("#valList" + index).val(selectedItems);
+    }
+
+    function onBackButtonClick() {
+        window.location.href = '@Url.Action("Profile", "Login")';
+    }
+</script>

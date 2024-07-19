@@ -1,0 +1,156 @@
+﻿@using LokerMVC.Models
+@{
+    ViewBag.Title = "Profile Update";
+    Layout = "_MainLayout";
+}
+
+@if (!string.IsNullOrWhiteSpace(ViewBag.MyMessage))
+{
+    <div class="alert alert-warning" role="alert">
+        No Tlp Wajib Di Isi untuk mendaftar
+    </div>
+}
+
+@using (Html.BeginForm("ProfileEditor", "Login", FormMethod.Post, new { id = "UpdateProfileForm" }))
+{
+    using (Html.DevExtreme().ValidationGroup())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="container d-flex justify-content-center align-items-center py-4" style="min-height: 80vh;">
+            <div class="w-100" style="max-width: 800px;">
+                <div class="row mb-3">
+                    <div class="col-md-6 mb-3">
+                        @(Html.DevExtreme().Form<ProfileRequest>()
+                            .OnInitialized("onInitialized")
+                            .ShowValidationSummary(true)
+                            .Items(items =>
+                            {
+                                items.AddSimpleFor(x => x.Nama)
+                                .Label(x => x.Visible(false))
+                                .Editor(x => x.TextBox()
+                                .LabelMode(EditorLabelMode.Floating)
+                                .Placeholder("Nama Lengkap")
+                                .ShowClearButton(true));
+                            }).FormData(Model))
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        @(Html.DevExtreme().Form<ProfileRequest>()
+                            .OnInitialized("onInitialized")
+                            .ShowValidationSummary(true)
+                            .Items(items =>
+                            {
+                                items.AddSimpleFor(x => x.Email)
+                                .Label(x => x.Visible(false))
+                                .Editor(x => x.TextBox()
+                                .ReadOnly(true)
+                                .LabelMode(EditorLabelMode.Floating)
+                                .Mode(TextBoxMode.Email)
+                                .Placeholder("Email"));
+                            }).FormData(Model))
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6 mb-3">
+                        @(Html.DevExtreme().Form<ProfileRequest>()
+                            .OnInitialized("onInitialized")
+                            .ShowValidationSummary(true)
+                            .Items(items =>
+                            {
+                                items.AddSimpleFor(x => x.NoTlp)
+                                .Label(x => x.Visible(false))
+                                .Editor(x => x.TextBox()
+                                .LabelMode(EditorLabelMode.Floating)
+                                .Placeholder("Nomor Handpone")
+                                .Mask("0000-0000-00###")
+                                .ShowClearButton(true));
+                            }).FormData(Model))
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        @(Html.DevExtreme().Form<ProfileRequest>()
+                            .OnInitialized("onInitialized")
+                            .ShowValidationSummary(true)
+                            .Items(items =>
+                            {
+                                items.AddSimpleFor(x => x.TempatLahir)
+                                .Label(x => x.Visible(false))
+                                .Editor(x => x.TextBox()
+                                .LabelMode(EditorLabelMode.Floating)
+                                .Placeholder("Tempat Lahir")
+                                .ShowClearButton(true));
+                            }).FormData(Model))
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6 mb-3">
+                        @(Html.DevExtreme().Form<ProfileRequest>()
+                            .OnInitialized("onInitialized")
+                            .ShowValidationSummary(true)
+                            .Items(items =>
+                            {
+                                items.AddSimpleFor(x => x.TglLahir)
+                                .Label(x => x.Visible(false))
+                                .Editor(x => x.DateBox()
+                                .LabelMode(EditorLabelMode.Floating)
+                                .Placeholder("Tgl Lahir")
+                                .DisplayFormat("dd-MMM-yyyy")
+                                .ShowClearButton(true));
+                            }).FormData(Model))
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        @(Html.DevExtreme().Form<ProfileRequest>()
+                            .OnInitialized("onInitialized")
+                            .ShowValidationSummary(true)
+                            .Items(items =>
+                            {
+                                items.AddSimpleFor(x => x.Alamat)
+                                .Label(x => x.Visible(false))
+                                .Editor(x => x.TextArea()
+                                .LabelMode(EditorLabelMode.Floating)
+                                .Placeholder("Alamat")
+                                .AutoResizeEnabled(true));
+                            }).FormData(Model))
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-12">
+                        @(Html.DevExtreme().Form<ProfileRequest>()
+                            .OnInitialized("onInitialized")
+                            .ShowValidationSummary(true)
+                            .Items(items =>
+                            {
+                                items.AddSimpleFor(x => x.Note)
+                                .Label(x => x.Visible(false))
+                                .Editor(x => x.TextArea()
+                                .LabelMode(EditorLabelMode.Floating)
+                                .Placeholder("Ceritakan Tentang Diri Anda / potensi / cita2 dll")
+                                .AutoResizeEnabled(true));
+                            }).FormData(Model))
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <button type="button" class="btn btn-danger w-100" onclick="onBackButtonClick()">Back</button>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <button type="submit" class="btn btn-primary w-100">Update</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+<script>
+    function onInitialized(e) {
+        formInstance = e.component;
+    }
+
+    function onBackButtonClick() {
+        window.location.href = '@Url.Action("Profile", "Login")';
+    }
+</script>

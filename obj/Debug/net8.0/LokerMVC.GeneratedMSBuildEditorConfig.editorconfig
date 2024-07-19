@@ -1,0 +1,107 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LokerMVC
+build_property.RootNamespace = LokerMVC
+build_property.ProjectDir = C:\Users\Muhammad Phazri S\Downloads\TestLoker-main (2)\TestLoker-main\LokerMVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Muhammad Phazri S\Downloads\TestLoker-main (2)\TestLoker-main\LokerMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Error/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Home/SetCookies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXRDb29raWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Login/GantiPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cR2FudGlQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Login/InputNewPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5wdXROZXdQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Login/InputOtp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5wdXRPdHAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Login/LupaPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTHVwYVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Login/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Login/ProfileEditor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUHJvZmlsZUVkaXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Login/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Login/UploadCv.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVXBsb2FkQ3YuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Login/UploadPhoto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVXBsb2FkUGhvdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Quiz/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Quiz/IsiQuiz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxJc2lRdWl6LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Shared/Partial/_FooterLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxcX0Zvb3RlckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Shared/_BlankLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CbGFua0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Shared/_ErrorLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FcnJvckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Shared/_MainLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Phazri S/Downloads/TestLoker-main (2)/TestLoker-main/LokerMVC/Views/Shared/Partial/_NavbarLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxcX05hdmJhckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-vstrgf3q6y

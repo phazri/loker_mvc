@@ -1,0 +1,174 @@
+﻿@using LokerMVC.Models
+@model LokerMVC.Models.CalonPelamarView
+
+@{
+    ViewBag.Title = "Profile";
+    Layout = "_MainLayout";
+}
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body d-flex align-items-center">
+                    <div>
+                        <h1 class="card-title mb-1">@Model.Nama</h1>
+                        <p class="card-text mb-1"><strong>Email:</strong> @Model.Email</p>
+                        <div class="text-left mb-3">
+                            @if (!Model.EmailConfirm)
+                            {
+                                <button class="btn btn-danger btn-sm" onclick="onRequestValidateEmailButtonClick()">Validate Email</button>
+                            }
+                            @if (ViewBag.isInfoEmail)
+                            {
+                                <div class="alert alert-info mt-2" role="alert">
+                                    Silahkan Cek Email
+                                </div>
+                            }
+                        </div>
+                        <p class="card-text mb-1"><strong>No Tlp:</strong> @Model.NoTlp</p>
+                        <div class="text-left mb-3">
+                            @if (!Model.PhoneNumberConfirm)
+                            {
+                                <button class="btn btn-danger btn-sm" onclick="onRequestValidatePhoneButtonClick()">Validate Phone</button>
+                            }
+                        </div>
+                        <p class="card-text"><strong>Tempat Lahir:</strong> @Model.TempatLahir</p>
+                        <p class="card-text"><strong>Tanggal Lahir:</strong> @Model.TglLahir.ToString("dd-MMM-yyyy")</p>
+                        <p class="card-text"><strong>Alamat:</strong> @Model.Alamat</p>
+                        <p class="card-text"><strong>Note:</strong> @Model.Note</p>
+                    </div>
+                    <div class="ml-auto">
+                        <img class="img-fluid rounded-circle" src="@ViewBag.photo" alt="Avatar" style="width: 200px; height: 200px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <div id="data-grid-demo">
+                @(Html.DevExtreme().DataGrid<PengalamanKerjaValidator>()
+                    .ID("gridPengalaman")
+                    .ShowBorders(true)
+                    .Paging(p => p.Enabled(false))
+                    .Editing(e => e.Mode(GridEditMode.Popup)
+                    .AllowUpdating(true)
+                    .AllowAdding(true)
+                    .AllowDeleting(true)
+                    .UseIcons(true)
+                    .Popup(p => p
+                    .Title("Pengalaman Kerja")
+                    .ShowTitle(true)
+                    .Width(300)
+                    .Height(525)
+                    .FullScreen(true)
+                    )
+                    .Form(f => f.Items(items =>
+                    {
+                        items.AddGroup()
+                        .ColCount(1)
+                        .ColSpan(2)
+                        .Items(groupItems =>
+                        {
+                            groupItems.AddSimpleFor(m => m.TempatKerja)
+                        .Label(x => x.Visible(false))
+                        .Editor(x => x.TextBox()
+                        .LabelMode(EditorLabelMode.Floating));
+                            groupItems.AddSimpleFor(m => m.Posisi)
+                        .Label(x => x.Visible(false))
+                        .Editor(x => x.TextBox()
+                        .LabelMode(EditorLabelMode.Floating));
+                            groupItems.AddSimpleFor(m => m.SalaryTerakhir)
+                        .Label(x => x.Visible(false))
+                        .Editor(x => x.NumberBox()
+                        .Format("#,###")
+                        .LabelMode(EditorLabelMode.Floating));
+                            groupItems.AddSimpleFor(m => m.TglAwal)
+                        .Label(x => x.Visible(false))
+                        .Editor(x => x.DateBox()
+                        .DisplayFormat("dd-MMM-yyyy")
+                        .LabelMode(EditorLabelMode.Floating));
+                            groupItems.AddSimpleFor(m => m.TglAkhir)
+                        .Label(x => x.Visible(false))
+                        .Editor(x => x.DateBox()
+                        .DisplayFormat("dd-MMM-yyyy")
+                        .LabelMode(EditorLabelMode.Floating));
+                            groupItems.AddSimpleFor(m => m.Tugas)
+                        .Label(x => x.Visible(false))
+                        .ColSpan(3)
+                        .Editor(x => x.TextArea()
+                        .Height(100)
+                        .LabelMode(EditorLabelMode.Floating));
+                        });
+                    }))
+                    )
+                    .Columns(columns =>
+                    {
+                        columns.AddFor(m => m.TempatKerja);
+                        columns.AddFor(m => m.Posisi).Visible(false);
+                        columns.AddFor(m => m.SalaryTerakhir).Format(format =>
+                        {
+                            format.Type(Format.FixedPoint);
+                        }).Visible(true);
+                        columns.AddFor(m => m.Tugas).Visible(false);
+                        columns.AddFor(m => m.TglAwal).Visible(false);
+                        columns.AddFor(m => m.TglAkhir).Visible(false);
+                        columns.AddFor(m => m.LamaKerja).Visible(false);
+                    })
+                    .DataSource(d => d.Mvc()
+                    .Controller("Pengalaman")
+                    .LoadAction("Get")
+                    .UpdateAction("Put")
+                    .InsertAction("Post")
+                    .DeleteAction("Delete")
+                    .Key("Id")))
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-12 text-center">
+            <button class="btn btn-primary" onclick="onBackButtonClick()">Back</button>
+            <button class="btn btn-primary" onclick="onEditButtonClick()">Update</button>
+            <button class="btn btn-primary" onclick="onUploadPhotoButtonClick()">Upload Photo</button>
+            <button class="btn btn-primary" onclick="onUploadCvButtonClick()">Upload CV</button>
+            <button class="btn btn-primary" onclick="onDownloadCvButtonClick()">Download CV</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn3.devexpress.com/jslib/20.2.4/js/dx.all.js"></script>
+
+<script>
+    function onBackButtonClick() {
+        window.location.href = '@Url.Action("Index", "Home")';
+    }
+
+    function onEditButtonClick() {
+        window.location.href = '@Url.Action("ProfileEditor", "Login")';
+    }
+
+    function onUploadPhotoButtonClick() {
+        window.location.href = '@Url.Action("UploadPhoto", "Login")';
+    }
+
+    function onUploadCvButtonClick() {
+        window.location.href = '@Url.Action("UploadCv", "Login")';
+    }
+
+    function onDownloadCvButtonClick() {
+        window.location.href = '@Url.Action("DownloadCv", "Login")';
+    }
+
+    function onRequestValidateEmailButtonClick() {
+        window.location.href = '@Url.Action("GetValidationEmail", "Login")';
+    }
+
+    function onRequestValidatePhoneButtonClick() {
+        window.location.href = '@Url.Action("GetValidationPhone", "Login")';
+    }
+</script>

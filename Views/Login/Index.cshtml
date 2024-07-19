@@ -1,0 +1,118 @@
+﻿@using TempDtoShared.Login
+@model EmailLoginRequest
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "_MainLayout";
+    var urlMain = Context.Items["UrlMain"] as string ?? "";
+    var urlApi = Context.Items["UrlApi"] as string ?? "";
+}
+
+<div class="container mt-5">
+    @using (Html.BeginForm("LoginUser", "Login", FormMethod.Post, new { id = "loginForm" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(x => x.Latitude)
+        @Html.HiddenFor(x => x.Longitude)
+        @Html.HiddenFor(x => x.Remarks)
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.Email, new { @class = "visually-hidden" })
+                    @Html.EditorFor(x => x.Email, new { htmlAttributes = new { @class = "form-control", placeholder = "Email", autocomplete = "off" } })
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.Password, new { @class = "visually-hidden" })
+                    @Html.EditorFor(x => x.Password, new { htmlAttributes = new { @class = "form-control", placeholder = "Password", autocomplete = "off", type = "password" } })
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between">
+                        <button type="button" class="btn btn-danger" onclick="onResetButtonClick()">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div class="row justify-content-center mt-3">
+        <div class="col-md-6 text-center">
+            <a asp-controller="Login" asp-action="Register" class="btn btn-link">Belum Punya Akun? Daftar</a>
+            <a asp-controller="Login" asp-action="LupaPassword" class="btn btn-link">Lupa Password</a>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-3">
+        <div class="col-md-6 text-center">
+            <a href="@urlApi/Login/google-sign-in?redirect=@urlMain/Home/setcookies" class="btn btn-outline-dark">Sign Up / Login with Google</a>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-3">
+        <div class="col-md-6 text-center">
+            <p>@ViewBag.message</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        getLocation();
+    });
+
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(sendLocationToField, handleLocationError);
+        } else {
+            $('#Remarks').val("Geolocation is not supported by this browser");
+            console.log("Geolocation is not supported by this browser.");
+        }
+    }
+
+    function handleLocationError(error) {
+        switch (error.code) {
+            case error.PERMISSION_DENIED:
+                $('#Remarks').val("User denied the request for Geolocation.");
+                console.log("User denied the request for Geolocation.");
+                break;
+            case error.POSITION_UNAVAILABLE:
+                $('#Remarks').val("Location information is unavailable.");
+                console.log("Location information is unavailable.");
+                break;
+            case error.TIMEOUT:
+                $('#Remarks').val("The request to get user location timed out.");
+                console.log("The request to get user location timed out.");
+                break;
+            case error.UNKNOWN_ERROR:
+                $('#Remarks').val("An unknown error occurred.");
+                console.log("An unknown error occurred.");
+                break;
+        }
+    }
+
+    function sendLocationToField(position) {
+        const latitude = position.coords.latitude;
+        const longitude = position.coords.longitude;
+
+        // Set latitude and longitude to model properties
+        $('#Latitude').val(latitude);
+        $('#Longitude').val(longitude);
+        $('#Remarks').val("Ok");
+        console.log("Latitude: " + latitude + ", Longitude: " + longitude);
+    }
+
+    function onResetButtonClick() {
+        window.location.href = '@Url.Action("Index", "Home")';
+    }
+</script>
